@@ -1,0 +1,28 @@
+Altium Designer Pick and Place Locations
+C:\Users\ianhanna\iCloudDrive\Documents\Altium\Power_Regulator_LED_Board\Project Outputs for ShieldBoard\Pick Place for ShieldBoard.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       31/12/25
+Time:       16:37
+Revision:   e091c2aa0a60b2654dcd391b0a7c43fd9573413d
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"Cin2","MSAST219LB5106KTNA01","TopLayer","C0805","18.7960","18.2680","90","Ceramic Capacitor, Multilayer, Ceramic, 25V, 10% +Tol, 10% -Tol, X5R, 15% TC, 10uF, Surface Mount, 0805"
+"Cin1","MSAST219LB5106KTNA01","TopLayer","C0805","15.7480","18.2800","90","Ceramic Capacitor, Multilayer, Ceramic, 25V, 10% +Tol, 10% -Tol, X5R, 15% TC, 10uF, Surface Mount, 0805"
+"U1","TPS562201DDCR","TopLayer","FP-DDC0006A-IPC_C","26.3501","18.5490","90","IC REG BUCK ADJ 2A TSOT23-6"
+"Rfbt","RC0201FR-0756K2L","TopLayer","RESC0603X26N","32.1083","17.7260","0","Res Thick Film 0201 56.2K Ohm 1% 0.05W(1/20W) ±200ppm/C Molded SMD Paper T/R"
+"Rfbb","RC0201FR-0710KL","TopLayer","RESC0603X26N","32.1068","18.9830","180","10 kOhms Â±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film"
+"L1","SRN6045-4R7Y","TopLayer","SRN6045","27.8741","10.9290","0","Inductor Power Semi-Shielded Wirewound 4.7uH 30% 100KHz 15Q-Factor Ferrite 3A 37.6mOhm DCR T/R"
+"J4","8-Pin-Header","TopLayer","8-Pin-Header-Footprint-1","54.6100","50.8000","0",""
+"J3","10-Pin-Header","TopLayer","10-Pin-Header-Footprint-1","30.2260","50.8000","0",""
+"J2","6-Pin-Header","TopLayer","6-Pin-Header-Footprint-1","57.1500","2.5400","0",""
+"J1","8-Pin-Header","TopLayer","8-Pin-Header-Footprint-1","36.8300","2.5400","0",""
+"D2","MKRAWT-00-0000-0D0HG235H","TopLayer","CREE-MK-R-2_V","54.1020","32.0040","0","LED, White, 12 V, 2-Pin SMD, RoHS, Tape and Reel"
+"D1","MKRAWT-00-0000-0D0HG235H","TopLayer","CREE-MK-R-2_V","54.1020","18.5420","0","LED, White, 12 V, 2-Pin SMD, RoHS, Tape and Reel"
+"Cout2","MSASL219LB5226MTNA01","TopLayer","C0805","36.6276","18.4880","270","Ceramic Capacitor, Multilayer, Ceramic, 10V, 20% +Tol, 20% -Tol, X5R, 15% TC, 22uF, Surface Mount, 0805"
+"Cout1","MSASL219LB5226MTNA01","TopLayer","C0805","34.3416","18.4880","270","Ceramic Capacitor, Multilayer, Ceramic, 10V, 20% +Tol, 20% -Tol, X5R, 15% TC, 22uF, Surface Mount, 0805"
+"Cbst","08053C104KAT2A","TopLayer","C0805","23.3021","12.1990","90","0805 100 nF 25V ±10 % Tolerance X7R Surface Mount Multilayer Ceramic Capacitor"

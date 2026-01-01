@@ -37,3 +37,14 @@ PCB layout → DRC/DFM cleanup → manufacturing outputs.
 1. Start with `docs/` for schematic + drawings
 2. Inspect `media/` for layout decisions (polygons, ground pour, placement)
 3. Use `outputs/` to verify fabrication readiness (Gerbers + drills + BOM + PnP)
+
+## Design Screenshots
+
+### Schematic
+![Schematic](media/schematic.png)
+
+### PCB Layout
+![PCB Layout](media/pcb_layout.png)
+
+### 3D View
+![3D PCB Render](media/pcb_3d.png)

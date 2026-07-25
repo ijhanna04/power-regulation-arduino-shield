@@ -1,17 +1,17 @@
 # Power Regulation + LED Arduino Shield (Altium)
 
 ## Overview
-A 2-layer Arduino Uno shield that accepts a 12V DC input, regulates it to 5V with
-high efficiency, powers an Arduino Uno via the 5V header pin, and distributes 12V
-to two high-power SMD LEDs in parallel.
+A 2-layer Arduino Uno shield design that accepts a 12V DC input, uses a
+TPS562201 buck regulator to generate a nominal 5V rail, and distributes 12V to
+two 12V-rated SMD LED modules in parallel.
 
 This project demonstrates an end-to-end PCB workflow: requirements → schematic →
-PCB layout → DRC/DFM cleanup → manufacturing outputs.
+PCB layout → DRC/DFM cleanup → fabrication-document generation.
 
 ## Requirements (Design Targets)
 - Input: 12V DC
 - Regulated output: 5V DC
-- Efficiency: ≥ 90%
+- Efficiency target: ≥ 90% (not yet validated by measurement)
 - Load: Arduino Uno + 2× high-power SMD LEDs (≥10W each) in parallel
 - Form factor: Arduino Uno shield using standard pin headers
 - Components placed on top layer only
@@ -29,14 +29,25 @@ PCB layout → DRC/DFM cleanup → manufacturing outputs.
 
 ## Repo Layout
 - `hardware/altium/` – Altium project (schematic + PCB)
-- `docs/` – schematic PDF + fabrication/assembly drawing (Draftsman)
-- `outputs/` – Gerbers/NC drill/ODB++/BOM/PnP
+- `docs/` – schematic PDF + draft fabrication/assembly drawing
+- `outputs/` – Gerber layers, BOM, pick-and-place data, and drill report
 - `media/` – screenshots (schematic, layout, 3D render)
 
 ## How to Review
 1. Start with `docs/` for schematic + drawings
 2. Inspect `media/` for layout decisions (polygons, ground pour, placement)
-3. Use `outputs/` to verify fabrication readiness (Gerbers + drills + BOM + PnP)
+3. Use `outputs/` to review the exported Gerber layers, BOM, and placement data
+
+## Validation status
+
+- Schematic, PCB layout, and fabrication drawings are provided for design review
+- The fabrication/assembly drawing is explicitly marked as a draft and still
+  contains template notes that must be finalized
+- The efficiency target has not been verified by bench measurement
+- The repository does not currently include an Excellon drill file or ODB++ package
+- The output set should be regenerated and reviewed before ordering boards
+- When powering an Arduino through its 5V header, avoid connecting another active
+  5V source unless the board's power-path behavior has been verified
 
 ## Design Screenshots
 
